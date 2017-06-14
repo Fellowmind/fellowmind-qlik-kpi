@@ -9,11 +9,10 @@ Unlimited amount of custom actions can be added when clicking the extension
 ![gif](https://raw.githubusercontent.com/ecraftextensions/ecraft-kpi/master/img/kpi1.png)
 
 Custom backgrounds and borders:
+
 ![gif](https://raw.githubusercontent.com/ecraftextensions/ecraft-kpi/master/img/kpi2.png)
 
 ![gif](https://raw.githubusercontent.com/ecraftextensions/ecraft-kpi/master/img/kpi3.png)
-
-
 
 ![gif](https://raw.githubusercontent.com/ecraftextensions/ecraft-kpi/master/img/KPI.gif)
 
