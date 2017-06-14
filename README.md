@@ -6,7 +6,7 @@ Unlimited amount of custom actions can be added when clicking the extension
 
 ### Multiple Style choices: ###
 
-![gif](https://raw.githubusercontent.com/ecraftextensions/ecraft-kpi/master/img/kp1.png)
+![gif](https://raw.githubusercontent.com/ecraftextensions/ecraft-kpi/master/img/kpi1.png)
 
 Custom backgrounds and borders:
 ![gif](https://raw.githubusercontent.com/ecraftextensions/ecraft-kpi/master/img/kpi2.png)
@@ -15,7 +15,7 @@ Custom backgrounds and borders:
 
 
 
-![gif](https://raw.githubusercontent.com/ecraftextensions/ecraft-kpi/master/img/kpi.gif)
+![gif](https://raw.githubusercontent.com/ecraftextensions/ecraft-kpi/master/img/KPI.gif)
 
 
 ## Import Extension to Sense Server ##
