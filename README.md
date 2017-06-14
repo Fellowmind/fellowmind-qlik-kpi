@@ -4,6 +4,20 @@ eCraft KPI extension is configurable and clean looking KPI Extension for Qlik Se
 
 Unlimited amount of custom actions can be added when clicking the extension
 
+### Multiple Style choices: ###
+
+![gif](https://raw.githubusercontent.com/ecraftextensions/ecraft-kpi/master/img/kp1.png)
+
+Custom backgrounds and borders:
+![gif](https://raw.githubusercontent.com/ecraftextensions/ecraft-kpi/master/img/kpi2.png)
+
+![gif](https://raw.githubusercontent.com/ecraftextensions/ecraft-kpi/master/img/kpi3.png)
+
+
+
+![gif](https://raw.githubusercontent.com/ecraftextensions/ecraft-kpi/master/img/kpi.gif)
+
+
 ## Import Extension to Sense Server ##
 1. Download ecraft-kpi.zip
 2. Import extension in QMC Extension section
