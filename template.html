@@ -1,0 +1,56 @@
+<div qv-extension style="height: 100%; position: relative; overflow: auto;">
+	<div class="frame" ng-class="{'default': data.rows[0].measures.length == 1, 'green': 1==1}" ng-click="action()">
+	    <div class="content" ng-style="content">
+			<div class="header" ng-style="header" >
+				<h2 lui-popover-trigger x-dock="right" x-template="$ctrl.popoverTemplate">{{settings.label}}</h2>
+			</div>
+			<div class="main-kpi" ng-style="mainKpi">
+				<p>
+					<i class="lui-icon  lui-icon--triangle-top" aria-hidden="true" ng-if="change == 'up' && settings.ShowIcon" />
+					<i class="lui-icon  lui-icon--triangle-bottom" aria-hidden="true" ng-if="change == 'down' && settings.ShowIcon" />
+
+					<span ng-if="Math.abs(data.rows[0].measures[0].qNum) < 1000 || settings.simple">{{data.rows[0].measures[0].qText}}</span>
+					<span ng-if="Math.abs(data.rows[0].measures[0].qNum) >= 1000000000 && !settings.simple">{{data.rows[0].measures[0].qNum / 1000000000 | number:2}} G</span>
+					<span ng-if="Math.abs(data.rows[0].measures[0].qNum) < 1000000000 && Math.abs(data.rows[0].measures[0].qNum) >= 1000000 && !settings.simple">{{data.rows[0].measures[0].qNum / 1000000 | number:2}} M </span>
+					<span ng-if="Math.abs(data.rows[0].measures[0].qNum) < 1000000 && Math.abs(data.rows[0].measures[0].qNum) >= 1000 && !settings.simple">{{data.rows[0].measures[0].qNum / 1000 | number:2}} k </span>
+				</p>
+			</div>
+			<!-- Show the comparison % -->
+			<div class="compare-kpi" ng-style="compareKpi" ng-if="settings.ShowCompValue==1">
+				<p ng-if="Math.abs(data.rows[0].measures[1].qNum) < 1000 || settings.simple">
+					{{settings.secondarylabel}}&nbsp;{{data.rows[0].measures[1].qText}} /
+					{{ ((data.rows[0].measures[0].qNum) / (data.rows[0].measures[1].qNum ) -1) *100 | number:1 }}%
+				</p>
+				<p ng-if="Math.abs(data.rows[0].measures[1].qNum) >= 1000000000 && !settings.simple">
+					{{settings.secondarylabel}}&nbsp;{{data.rows[0].measures[1].qNum / 1000000000 | number:2}} G /
+					{{ ((data.rows[0].measures[0].qNum) / (data.rows[0].measures[1].qNum )-1)*100 | number:1 }}%
+				</p>
+				<p ng-if="Math.abs(data.rows[0].measures[1].qNum) < 1000000000 &amp;&amp; Math.abs(data.rows[0].measures[1].qNum) >= 1000000 && !settings.simple">
+					{{settings.secondarylabel}}&nbsp;{{data.rows[0].measures[1].qNum / 1000000 | number:2}} M /
+					{{ ((data.rows[0].measures[0].qNum) / (data.rows[0].measures[1].qNum )-1)*100 | number:1 }}%
+				</p>
+				<p ng-if="Math.abs(data.rows[0].measures[1].qNum) < 1000000 &amp;&amp; Math.abs(data.rows[0].measures[1].qNum) >= 1000 && !settings.simple">
+					{{settings.secondarylabel}}&nbsp;{{data.rows[0].measures[1].qNum / 1000 | number:2}} k /
+					{{ ((data.rows[0].measures[0].qNum) / (data.rows[0].measures[1].qNum )-1)*100 | number:1 }}%
+				</p>
+
+			</div>
+
+			<!-- Dont show the comparison % -->
+			<div class="compare-kpi" ng-style="compareKpi" ng-if="settings.ShowCompValue==0">
+				<p ng-if="Math.abs(data.rows[0].measures[1].qNum) < 1000 || settings.simple">
+					{{settings.secondarylabel}}&nbsp;{{data.rows[0].measures[1].qText}}
+				</p>
+				<p ng-if="Math.abs(data.rows[0].measures[1].qNum) >= 1000000000 && !settings.simple">
+					{{settings.secondarylabel}}&nbsp;{{data.rows[0].measures[1].qNum / 1000000000 | number:2}} G
+				</p>
+				<p ng-if="Math.abs(data.rows[0].measures[1].qNum) < 1000000000 &amp;&amp; Math.abs(data.rows[0].measures[1].qNum) >= 1000000 && !settings.simple">
+					{{settings.secondarylabel}}&nbsp;{{data.rows[0].measures[1].qNum / 1000000 | number:2}} M
+				</p>
+				<p ng-if="Math.abs(data.rows[0].measures[1].qNum) < 1000000 &amp;&amp; Math.abs(data.rows[0].measures[1].qNum) >= 1000 && !settings.simple">
+					{{settings.secondarylabel}}&nbsp;{{data.rows[0].measures[1].qNum / 1000 | number:2}} k
+				</p>
+			</div>
+		</div>
+	</div>
+</div>

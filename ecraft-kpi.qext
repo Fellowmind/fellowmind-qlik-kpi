@@ -1,0 +1,16 @@
+{
+	"name": "Ecraft KPI",
+	"description": "Customizable KPI extension for Qlik Sense. Custom actions for selections, setting variables and changing sheets",
+	"icon": "kpi",
+	"type": "visualization",
+	"version": "1.0.0",
+	"author": "Markus Lehtola / eCraft Business Insight",
+	"homepage": "bi.ecraft.com",
+	"keywords": "qlik-sense, visualization",
+	"license": "MIT",
+	"repository": "https://github.com/QlikFinland/KPI-Box",
+	"preview" : "ecraft-logo-ext.png",
+	"dependencies": {
+		"qlik-sense": ">=3.0.x"
+	}
+}
