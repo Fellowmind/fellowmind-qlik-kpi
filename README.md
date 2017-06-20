@@ -48,6 +48,7 @@ You can customize following colors:
 
 Color can be added from Qlik Expression or directly as CSS compatible color code (RGB, RGBA, HEX or color name).
 
+
 ### Actions ###
 
 Multiple actions can be added in extension property panel. You can chain actions together, for example select value and move to analysis sheet.
@@ -60,7 +61,7 @@ Custom actions when clicking KPI can be configured:
 Settings:
 Field name: Name of the field
 Value: Value to be selected
-Append to field selection: Either replace current selections or add to selection. Multiple values can be selected if you first replace selections and then add other values.
+Append to field selection: Either replace current selections or add to selection. Multiple values can be selected if you first replace selections and then add other values. First add one selection with replace and then add further actions to select additional values with add option
 
 * Set variable
 Settings:
