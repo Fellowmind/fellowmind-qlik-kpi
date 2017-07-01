@@ -80,4 +80,12 @@ Sheet: Dropdown of all sheets in Qlik Sense application. Select desired sheet fr
 
 Color can be added from Qlik Expression or directly as CSS compatible color code (RGB, RGBA, HEX or color name).
 
+### Author ###
 
+Markus Lehtola, eCraft Business Insight
+firstname.lastname@ecraft.com
+
+
+### Bugs etc. ###
+
+To report bugs and feature request please open issue.
