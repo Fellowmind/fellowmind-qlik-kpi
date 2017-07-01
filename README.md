@@ -18,7 +18,7 @@ Custom backgrounds and borders:
 
 
 ## Import Extension to Sense Server ##
-1. Download ecraft-kpi.zip
+1. Download newest version of ecraft-kpi.zip from the dist folder. 
 2. Import extension in QMC Extension section
 
 ![qmc](https://raw.githubusercontent.com/ecraftextensions/ecraft-kpi/master/img/qmc.png)
