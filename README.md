@@ -18,7 +18,7 @@ Custom backgrounds and borders:
 
 
 ## Import Extension to Sense Server ##
-1. Download ecraft-kpi.zip
+1. Download newest version of ecraft-kpi.zip from the dist folder. 
 2. Import extension in QMC Extension section
 
 ![qmc](https://raw.githubusercontent.com/ecraftextensions/ecraft-kpi/master/img/qmc.png)
@@ -80,4 +80,12 @@ Sheet: Dropdown of all sheets in Qlik Sense application. Select desired sheet fr
 
 Color can be added from Qlik Expression or directly as CSS compatible color code (RGB, RGBA, HEX or color name).
 
+### Author ###
 
+Markus Lehtola, eCraft Business Insight
+firstname.lastname@ecraft.com
+
+
+### Bugs etc. ###
+
+To report bugs and feature request please open issue.
