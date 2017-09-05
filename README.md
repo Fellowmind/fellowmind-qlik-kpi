@@ -2,7 +2,7 @@
 
 eCraft KPI extension is configurable and clean looking KPI Extension for Qlik Sense.
 
-Unlimited amount of custom actions can be added when clicking the extension
+Unlimited amount of custom actions can be added when clicking the extension. Actions include Select in field, Variable actions and move to sheet.
 
 ### Multiple Style choices: ###
 
