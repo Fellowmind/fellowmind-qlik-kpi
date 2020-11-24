@@ -6,8 +6,8 @@
 			</div>
 			<div class="main-kpi" ng-style="mainKpi">
 				<p>
-					<i class="lui-icon  lui-icon--triangle-top" aria-hidden="true" ng-if="change == 'up' && settings.ShowIcon" />
-					<i class="lui-icon  lui-icon--triangle-bottom" aria-hidden="true" ng-if="change == 'down' && settings.ShowIcon" />
+					<i class="lui-icon  lui-icon--triangle-top" aria-hidden="true" ng-if="change == 'up' && settings.ShowIcon"></i>
+					<i class="lui-icon  lui-icon--triangle-bottom" aria-hidden="true" ng-if="change == 'down' && settings.ShowIcon"></i>
 
 					<span ng-if="Math.abs(data.rows[0].measures[0].qNum) < 1000 || settings.simple">{{data.rows[0].measures[0].qText}}</span>
 					<span ng-if="Math.abs(data.rows[0].measures[0].qNum) >= 1000000000 && !settings.simple">{{data.rows[0].measures[0].qNum / 1000000000 | number:2}} G</span>
