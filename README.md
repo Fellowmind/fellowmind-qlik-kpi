@@ -84,6 +84,7 @@ Color can be added from Qlik Expression or directly as CSS compatible color code
 ### Author ###
 
 Joonas Vermeulen, Fellowmind Finland
+
 firstname.lastname@fellowmind.fi
 
 
