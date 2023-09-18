@@ -1,4 +1,5 @@
-# eCraft KPI Extension
+# Fellowmind Qlik KPI Extension
+**Formerly known as _eCraft KPI Extension_**
 
 eCraft KPI extension is configurable and clean looking KPI Extension for Qlik Sense.
 
@@ -82,8 +83,8 @@ Color can be added from Qlik Expression or directly as CSS compatible color code
 
 ### Author ###
 
-Markus Lehtola, eCraft Business Insight
-firstname.lastname@ecraft.com
+Joonas Vermeulen, Fellowmind Finland
+firstname.lastname@fellowmind.fi
 
 
 ### Bugs etc. ###
